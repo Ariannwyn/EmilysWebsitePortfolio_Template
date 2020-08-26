@@ -16,7 +16,6 @@
 
 */
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
