@@ -34,11 +34,11 @@ class Download extends React.Component {
               <h2 className="title">About Emily</h2>
               <h4 className="description">
                 I come from a background as a 3D artist working at video game
-                development studios for over 4 years, and since then have found
-                my passion as a programmer and web developer. My years as an
-                artist have given me both strong design skills as well as
-                experience in software development which has been invaluable to
-                my web development journey.
+                development studios, and since then have found my passion as a
+                programmer and web developer. <br />
+                My years as a technical artist have given me both strong design
+                skills as well as experience in software development which has
+                been invaluable to my web development journey.
               </h4>
             </Col>
             <Col className="text-center" lg="8" md="12">
