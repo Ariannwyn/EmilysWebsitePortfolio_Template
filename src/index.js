@@ -24,16 +24,11 @@ import "assets/scss/blk-design-system-react.scss?v=1.1.0";
 import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/home" render={(props) => <Index {...props} />} />
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
       <Redirect from="/" to="/home" />
     </Switch>
   </BrowserRouter>,
