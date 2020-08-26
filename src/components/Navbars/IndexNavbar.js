@@ -21,10 +21,6 @@ import { Link } from "react-router-dom";
 import {
   Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -33,7 +29,6 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 class ComponentsNavbar extends React.Component {
@@ -137,13 +132,13 @@ class ComponentsNavbar extends React.Component {
               </Row>
             </div>
             <Nav navbar>
-              <NavItem>
+              {/* <NavItem>
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="primary"
                   target="_blank"
                   tag={Link}
-                  to="/profile-page"
+                  to="/projects"
                 >
                   <i /> Projects
                 </Button>
@@ -154,7 +149,7 @@ class ComponentsNavbar extends React.Component {
                   color="primary"
                   target="_blank"
                   tag={Link}
-                  to="/profile-page"
+                  to={"#About"}
                 >
                   <i /> About
                 </Button>
@@ -169,11 +164,11 @@ class ComponentsNavbar extends React.Component {
                 >
                   <i /> Contact
                 </Button>
-              </NavItem>
+              </NavItem> */}
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/Ariannwyn"
+                  href="https://twitter.com/Ariannwyn3D"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow me on Twitter"
@@ -185,7 +180,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href=""
+                  href="https://github.com/ariannwyn"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Check out my Github"
@@ -197,7 +192,8 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href=""
+                  href="../../assets/resume/EmilysPortfolio.pdf"
+                  download
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Download my resume"

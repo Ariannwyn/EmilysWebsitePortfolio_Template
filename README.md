@@ -1,8 +1,10 @@
 # [Emily Adams Portfolio]
 
-This portfolio was created utilizing Reactstrap and the **BLK Design template by Creative Tim. (http://demos.creative-tim.com/blk-design-system-react/)**
+This portfolio was created utilizing Reactstrap and the BLK Design template by Creative Tim. (http://demos.creative-tim.com/blk-design-system-react/)
 
-## Emily's LinkedIn (https://www.linkedin.com/in/emilyadamsprofile/)
+## Social Media
+
+- LinkedIn (https://www.linkedin.com/in/emilyadamsprofile/)
 
 ## Licensing
 

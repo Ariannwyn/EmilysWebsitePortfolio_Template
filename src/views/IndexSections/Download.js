@@ -42,7 +42,7 @@ class Download extends React.Component {
               <Button
                 className="btn-round"
                 color="info"
-                href=""
+                href="https://www.linkedin.com/in/emilyadamsprofile/"
                 role="button"
                 size="lg"
               >
@@ -65,6 +65,9 @@ class Download extends React.Component {
                 color="twitter"
                 id="twitter"
                 size="lg"
+                href="https://twitter.com/Ariannwyn3D"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-twitter" />
               </Button>
@@ -76,6 +79,9 @@ class Download extends React.Component {
                 color="facebook"
                 id="facebook"
                 size="lg"
+                href="https://www.linkedin.com/in/emilyadamsprofile/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-linkedin" />
               </Button>
@@ -89,6 +95,7 @@ class Download extends React.Component {
                 id="tooltip877922017"
                 size="lg"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-github" />
               </Button>

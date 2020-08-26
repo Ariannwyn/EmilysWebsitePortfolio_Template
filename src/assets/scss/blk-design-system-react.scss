@@ -16,9 +16,13 @@
 
 */
 
-$asset-base-path: '../../../../assets' !default;
+$asset-base-path: "../../../../assets" !default;
 
 // Core
+
+.PIN_1572266879879_button_pin .PIN_1572266879879_save {
+  display: none !important;
+}
 
 @import "blk-design-system-react/custom/functions";
 @import "blk-design-system-react/bootstrap/functions";

@@ -21,7 +21,6 @@ import classnames from "classnames";
 // reactstrap components
 import {
   TabContent,
-  Button,
   TabPane,
   Container,
   Row,
@@ -59,13 +58,13 @@ class Examples extends React.Component {
             {/* Image Card */}
             <Col sm="6">
               {/* Add link to live page here */}
-              <Link to="https://emily-a-nasa.netlify.app/">
+              <Link to={this.props.live}>
                 <img
                   alt="..."
                   className="img-raised"
-                  href="https://emily-a-nasa.netlify.app/"
+                  href={this.props.live}
                   // Add GIF here v
-                  src={require("assets/img/NasaProject.gif")}
+                  src={this.props.image}
                 />
               </Link>
             </Col>
@@ -104,22 +103,10 @@ class Examples extends React.Component {
                     activeTab={"link" + this.state.textTabs}
                   >
                     <TabPane tabId="link4">
-                      <p>
-                        I created a "Space Photo Of The Day" site that displays
-                        astronomy photos utilizing the NASA API.
-                      </p>
+                      <p>{this.props.text}</p>
                     </TabPane>
                     <TabPane tabId="link6">
-                      <p>
-                        React
-                        <br />
-                        JavaScript
-                        <br />
-                        CSS
-                        <br />
-                        Material UI
-                        <br />
-                      </p>
+                      <p>{this.props.skills}</p>
                     </TabPane>
                   </TabContent>
                 </CardBody>
@@ -127,8 +114,9 @@ class Examples extends React.Component {
               <a
                 className="btn-simple btn-round"
                 color="primary"
-                href="https://emily-a-nasa.netlify.app/"
+                href={this.props.live}
                 target="_blank"
+                rel="noopener noreferrer"
                 // Change location the button directs to
               >
                 View Live Project
@@ -136,103 +124,13 @@ class Examples extends React.Component {
               <a
                 className="btn-simple btn-round"
                 color="primary"
-                href="https://github.com/Ariannwyn/nasa-photo-of-the-day"
+                href={this.props.code}
                 target="_blank"
+                rel="noopener noreferrer"
                 // Change location the button directs to
               >
                 View Code
               </a>
-            </Col>
-          </Row>
-          <div className="space-100"></div>
-          {/* Project 2! */}
-          <Row>
-            {/* Summary Card */}
-            <Col sm="6">
-              <Card>
-                <CardHeader>
-                  <Nav className="nav-tabs-info" role="tablist" tabs>
-                    <NavItem>
-                      <NavLink
-                        className={classnames({
-                          active: this.state.textTabs === 4,
-                        })}
-                        onClick={(e) => this.toggleTabs(e, "textTabs", 4)}
-                        href="#emily"
-                      >
-                        Summary
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={classnames({
-                          active: this.state.textTabs === 6,
-                        })}
-                        onClick={(e) => this.toggleTabs(e, "textTabs", 6)}
-                        href="#emily"
-                      >
-                        Tools Utilized
-                      </NavLink>
-                    </NavItem>
-                  </Nav>
-                </CardHeader>
-                <CardBody>
-                  <TabContent
-                    className="tab-space"
-                    activeTab={"link" + this.state.textTabs}
-                  >
-                    <TabPane tabId="link4">
-                      <p>
-                        I created a "Space Photo Of The Day" site that displays
-                        astronomy photos utilizing the NASA API.
-                      </p>
-                    </TabPane>
-                    <TabPane tabId="link6">
-                      <p>
-                        React
-                        <br />
-                        JavaScript
-                        <br />
-                        CSS
-                        <br />
-                        Material UI
-                        <br />
-                      </p>
-                    </TabPane>
-                  </TabContent>
-                </CardBody>
-              </Card>
-              <a
-                className="btn-simple btn-round"
-                color="primary"
-                href="https://emily-a-nasa.netlify.app/"
-                target="_blank"
-                // Change location the button directs to
-              >
-                View Live Project
-              </a>
-              <a
-                className="btn-simple btn-round"
-                color="primary"
-                href="https://github.com/Ariannwyn/nasa-photo-of-the-day"
-                target="_blank"
-                // Change location the button directs to
-              >
-                View Code
-              </a>
-            </Col>
-            {/* Image Card */}
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              {/* Add link to live page here */}
-              <Link to="https://emily-a-nasa.netlify.app/">
-                <img
-                  alt="..."
-                  className="img-raised"
-                  href="https://emily-a-nasa.netlify.app/"
-                  // Add GIF here v
-                  src={require("assets/img/NasaProject.gif")}
-                />
-              </Link>
             </Col>
           </Row>
         </Container>

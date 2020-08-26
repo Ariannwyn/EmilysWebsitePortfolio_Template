@@ -16,24 +16,20 @@
 
 */
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
-import Footer from "components/Footer/Footer.js";
 
-// sections for this page/view
-import Basics from "views/IndexSections/Basics.js";
-import Navbars from "views/IndexSections/Navbars.js";
-import Tabs from "views/IndexSections/Tabs.js";
-import Pagination from "views/IndexSections/Pagination.js";
-import Notifications from "views/IndexSections/Notifications.js";
-import Typography from "views/IndexSections/Typography.js";
-import JavaScript from "views/IndexSections/JavaScript.js";
-import NucleoIcons from "views/IndexSections/NucleoIcons.js";
-import Signup from "views/IndexSections/Signup.js";
+// sections for this page/view;
 import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
+
+//gifs
+import nasaImg from "../assets/img/NasaProject.gif";
+import portfolioImg from "../assets/img/PortfolioProject.gif";
+import devDeskImg from "../assets/img/DevDeskProject.gif";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -49,8 +45,30 @@ class Index extends React.Component {
         <div className="wrapper">
           <PageHeader />
           <div className="main">
-            <Examples />
-            <Download />
+            <Examples
+              id="Projects"
+              live="https://emily-a-nasa.netlify.app/"
+              image={nasaImg}
+              code="https://github.com/Ariannwyn/nasa-photo-of-the-day/tree/emily-adams"
+              text="I created a Space Photo Of The Day site that displays astronomy photos utilizing the NASA API."
+              skills={"React \u2022 JavaScript \u2022 CSS \u2022 Reactstrap"}
+            />
+            <Examples
+              live="https://emily-adams.netlify.app/index.html"
+              image={portfolioImg}
+              code="https://github.com/Ariannwyn/User-Interface-II/tree/emily-adamsday2"
+              text="This was the first version of my portfolio. I created a landing page, about page, and a contact form."
+              skills={"React \u2022 JavaScript \u2022 CSS \u2022 Reactstrap"}
+            />
+            <Examples
+              live="https://devdeskqueuewebpt1.netlify.app/"
+              image={devDeskImg}
+              code="https://github.com/Build-Week-DevDeskQueue-1/Marketing-Page"
+              text="I was part of a team making a ticketing system for Lambda School. My role was creating the Home and About pages."
+              skills={"HTML \u2022 CSS \u2022 LESS"}
+            />
+
+            <Download id="About" />
           </div>
         </div>
       </>
