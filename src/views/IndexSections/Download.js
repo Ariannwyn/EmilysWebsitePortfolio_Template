@@ -31,11 +31,14 @@ class Download extends React.Component {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h2 className="title">Interested in working together?</h2>
+              <h2 className="title">About Emily</h2>
               <h4 className="description">
-                Let's talk about your next project. Hit the button below to
-                contact Emily. Start a new project or give an old project a new
-                look!
+                I come from a background as a 3D artist working at video game
+                development studios for over 4 years, and since then have found
+                my passion as a programmer and web developer. My years as an
+                artist have given me both strong design skills as well as
+                experience in software development which has been invaluable to
+                my web development journey.
               </h4>
             </Col>
             <Col className="text-center" lg="8" md="12">
@@ -46,7 +49,7 @@ class Download extends React.Component {
                 role="button"
                 size="lg"
               >
-                Contact Emily on LinkedIn
+                Let's Work Together!
               </Button>
             </Col>
           </Row>
