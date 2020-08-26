@@ -28,8 +28,9 @@ import Index from "views/Index.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/home" render={(props) => <Index {...props} />} />
-      <Redirect from="/" to="/home" />
+      <Index />
+      {/* <Route path="/home" render={(props) => <Index {...props} />} />
+      <Redirect from="/" to="/home" /> */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
