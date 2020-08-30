@@ -191,9 +191,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="../../assets/resume/EmilysPortfolio.pdf"
-                  download
-                  rel="noopener noreferrer"
+                  href="https://docs.google.com/document/d/1DuzMJIZL8Rnbla1Lw17o9j_uDyv6uedYHWfYY8k_ye0/edit?usp=sharing"
                   target="_blank"
                   title="Download my resume"
                 >
