@@ -195,7 +195,7 @@ class ComponentsNavbar extends React.Component {
                   target="_blank"
                   title="Download my resume"
                 >
-                  <i className="tim-icons icon-cloud-download-93"></i>
+                  <i className="tim-icons icon-single-copy-04" />
                   <p className="d-lg-none d-xl-none">Resume</p>
                 </NavLink>
               </NavItem>
