@@ -17,8 +17,10 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+
 // reactstrap components
 import {
+  Button,
   Collapse,
   NavbarBrand,
   Navbar,
@@ -93,7 +95,7 @@ class ComponentsNavbar extends React.Component {
           <div className="navbar-translate">
             <NavbarBrand to="/" tag={Link} id="navbar-brand">
               <span>Emily Adams </span>
-              Front End Web Developer
+              Full Stack Web Developer
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -189,15 +191,14 @@ class ComponentsNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem className="p-0">
-                <NavLink
-                  data-placement="bottom"
-                  href="https://docs.google.com/document/d/1DuzMJIZL8Rnbla1Lw17o9j_uDyv6uedYHWfYY8k_ye0/edit?usp=sharing"
+              <Button className="nav-link d-none d-lg-block"
+                  color="primary"
+                  // tag={Link}
+                  href="https://drive.google.com/file/d/1p-HuvvKLpMhw16WlmXHkkLxFT0Wv2rL8/view?usp=sharing"
                   target="_blank"
-                  title="Download my resume"
-                >
-                  <i className="tim-icons icon-single-copy-04" />
-                  <p className="d-lg-none d-xl-none">Resume</p>
-                </NavLink>
+                  title="Download my resume">
+                  Resume
+                  </Button>
               </NavItem>
             </Nav>
           </Collapse>

@@ -35,8 +35,8 @@ class PageHeader extends React.Component {
           <div className="content-center brand">
             <h1 className="h1-seo">Emily Adams</h1>
             <h3 className="d-none d-sm-block">
-              Front End Web Developer. <br/>
-              Creating responsive and elegant websites.
+              Full Stack Web Developer. <br />
+              Pursuing Excellence and Mastery.
             </h3>
           </div>
         </Container>
