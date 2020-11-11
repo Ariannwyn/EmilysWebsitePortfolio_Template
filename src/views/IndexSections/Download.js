@@ -35,7 +35,7 @@ class Download extends React.Component {
               <h4 className="description">
               Hi I'm Emily! I’ve worked for 4 years in software development as a technical artist. I recently graduated from Lambda School, a 9-month immersive Software Developer program where I studied Full Stack Web Development. My passion for mastering the art of programming makes me a hard, quick, and life-long learner. 
               <br/><br/>
-              I believe I am an exceptional fit for any company, as I’ve gained an extensive amount of experience working with Front-End frameworks such as React JS and Redux, as well as the Backend with Java and Spring and fetching data from REST API's with a focus on Relational Database Management. 
+              I believe I am an exceptional fit for any company, as I’ve gained an extensive amount of experience working with Front-End frameworks such as React JS and Redux, as well as the Backend with Java and Spring with a focus on Relational Database Management Systems. 
               <br/><br/>
               In additon to my technical skills, I am a highly professional yet excitable individual who believes that having a growth mindset and good character are some of the best qualities you can have.
               </h4>
