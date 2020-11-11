@@ -45,9 +45,9 @@ class Index extends React.Component {
           <PageHeader />
           <div className="main">
           <Examples
-              live="https://devdeskqueuewebpt1.netlify.app/"
+              live="https://epic-poincare-74a48a.netlify.app/"
               image={buildweekImg}
-              code="https://github.com/Build-Week-DevDeskQueue-1/Marketing-Page"
+              code="https://github.com/co-make-2-bh/frontend"
               text="I was part of a team creating a neighborhood social app. This would allow people within a neighborhood to post items for sale, or missing items, etc. My role was implementing CRUD opperations to display and edit the posts, as well as ensuring the token authentication and state management on the front end."
               skills={"React \u2022 JavaScript \u2022 Context \u2022 Cypress \u2022 Styled Components \u2022 Reactstrap"}
             />

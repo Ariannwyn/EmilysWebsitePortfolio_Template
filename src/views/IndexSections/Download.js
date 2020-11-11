@@ -33,12 +33,11 @@ class Download extends React.Component {
             <Col className="text-center" lg="8" md="12">
               <h2 className="title">About Emily</h2>
               <h4 className="description">
-                I come from a background as a 3D artist working at video game
-                development studios, and since then have found my passion as a
-                programmer and web developer. <br />
-                My years as a technical artist have given me both strong design
-                skills as well as experience in software development which has
-                been invaluable to my web development journey.
+              Hi I'm Emily! I’ve worked for 4 years in software development as a technical artist. I recently graduated from Lambda School, a 9-month immersive Software Developer program where I studied Full Stack Web Development. My passion for mastering the art of programming makes me a hard, quick, and life-long learner. 
+              <br/><br/>
+              I believe I am an exceptional fit for any company, as I’ve gained an extensive amount of experience working with Front-End frameworks such as React JS and Redux, as well as the Backend with Java and Spring and fetching data from REST API's with a focus on Relational Database Management. 
+              <br/><br/>
+              In additon to my technical skills, I am a highly professional yet excitable individual who believes that having a growth mindset and good character are some of the best qualities you can have.
               </h4>
             </Col>
             <Col className="text-center" lg="8" md="12">
@@ -63,7 +62,7 @@ class Download extends React.Component {
               </h4>
             </Col>
             <Col className="text-lg-center btn-wrapper" lg="6">
-              <Button
+              {/* <Button
                 className="btn-icon btn-round"
                 color="twitter"
                 id="twitter"
@@ -76,7 +75,7 @@ class Download extends React.Component {
               </Button>
               <UncontrolledTooltip delay={0} target="twitter">
                 Tweet!
-              </UncontrolledTooltip>
+              </UncontrolledTooltip> */}
               <Button
                 className="btn-icon btn-round"
                 color="facebook"

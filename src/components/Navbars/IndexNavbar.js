@@ -166,18 +166,18 @@ class ComponentsNavbar extends React.Component {
                   <i /> Contact
                 </Button>
               </NavItem> */}
-              <NavItem className="p-0">
+              {/* <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/Ariannwyn3D"
+                  href="https://twitter.com/AriannwynDev"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow me on Twitter"
                 >
                   <i className="fab fa-twitter" />
                   <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-              </NavItem>
+                </NavLink> */}
+              {/* </NavItem> */}
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
